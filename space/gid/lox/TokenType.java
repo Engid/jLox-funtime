@@ -1,4 +1,4 @@
-package com.craftinginterpreters.lox;
+package space.gid.lox;
 
 enum TokenType {
   // Single-character tokens.

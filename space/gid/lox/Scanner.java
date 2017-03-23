@@ -1,4 +1,4 @@
-package com.craftinginterpreters.lox;
+package space.gid.lox;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,7 +10,7 @@ import java.util.Map;
 // "I know static imports are considered bad style by some, but they save me
 // from having to sprinkle `TokenType.` all over the scanner and parser. 
 // Forgive me, but every character counts in a book." -Bob Nystrom
-import static com.craftinginterpreters.lox.TokenType.*;
+import static space.gid.lox.TokenType.*;
 
 class Scanner {
   private final String source;
